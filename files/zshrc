@@ -1,0 +1,20 @@
+[[ $- != *i* ]] && return
+
+## Aliases
+
+alias ls="ls --color=auto"
+
+## Options
+
+setopt AUTO_CD
+setopt AUTO_PUSHD
+
+## Functionality
+
+autoload -U compinit
+compinit
+
+## Variables
+
+PROMPT="%F{red}%B%n@%m%b %F{blue}%3~ %F{red}%B%#%f%b "
+EDITOR=vim

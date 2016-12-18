@@ -1,0 +1,4 @@
+access.global
+access.{{ grains.host }}
+{% if "role" in grains and grains["role"] == "workstation" %}access.workstation{% endif %}
+localacl

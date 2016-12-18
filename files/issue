@@ -1,0 +1,2 @@
+Welcome to {{ grains['host'] }}!
+This system managed by Salt.
