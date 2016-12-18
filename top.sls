@@ -13,6 +13,7 @@ base:
   - krb5
   - ldap.base
   - ldap.client
+  - localacl
   - ncdu
   - pacman
   - pam
