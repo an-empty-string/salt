@@ -20,4 +20,5 @@ openssh:
   - group: root
   - mode: 644
 
-
+mosh:
+  pkg.installed

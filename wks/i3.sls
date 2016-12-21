@@ -1,3 +1,5 @@
 i3-wm:
-  pkg:
-  - installed
+  pkg.installed
+
+i3lock:
+  pkg.installed

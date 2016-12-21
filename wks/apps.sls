@@ -24,9 +24,11 @@ utils:
     - alsa-utils
     - git
     - maim
+    - p7zip
     - pandoc
     - pass
     - pavucontrol
+    - powertop
     - pulseaudio
     - pulseaudio-alsa
     - rofi
