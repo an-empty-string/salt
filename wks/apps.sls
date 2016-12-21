@@ -45,6 +45,8 @@ prog:
     - python2
     - python-pip
     - python2-pip
+    - crystal
+    - shards
 
 xorg-apps:
   pkg.group_installed
