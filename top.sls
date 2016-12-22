@@ -56,3 +56,7 @@ base:
   'role:proxy':
   - match: grain
   - proxy.package
+
+  'role:web':
+  - match: grain
+  - nginx
