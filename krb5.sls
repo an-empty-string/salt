@@ -8,3 +8,8 @@
 pam-krb5:
   pkg:
   - installed
+
+'/root/.k5login':
+  file.managed:
+  - contents:
+    - fwilson/root@FWILSON.ME

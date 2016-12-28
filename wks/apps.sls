@@ -22,8 +22,12 @@ utils:
   pkg.installed:
   - pkgs:
     - alsa-utils
+    - connman
+    - ferm
     - git
+    - imagemagick
     - maim
+    - lxc
     - p7zip
     - pandoc
     - pass
@@ -34,9 +38,13 @@ utils:
     - rofi
     - rtorrent
     - rxvt-unicode
+    - snes9x-gtk
+    - ttf-ms-fonts
     - urxvt-perls
     - unzip
     - volumeicon
+    - yubico-piv-tool
+    - yubikey-personalization
 
 prog:
   pkg.installed:
