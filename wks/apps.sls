@@ -27,6 +27,7 @@ utils:
     - git
     - imagemagick
     - maim
+    - linuxsampler
     - lxc
     - p7zip
     - pandoc
@@ -35,7 +36,10 @@ utils:
     - powertop
     - pulseaudio
     - pulseaudio-alsa
+    - qsampler
+    - qsynth
     - rofi
+    - rosegarden
     - rtorrent
     - rxvt-unicode
     - snes9x-gtk
