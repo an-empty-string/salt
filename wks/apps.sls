@@ -26,9 +26,10 @@ utils:
     - ferm
     - git
     - imagemagick
-    - maim
     - linuxsampler
+    - lprng
     - lxc
+    - maim
     - p7zip
     - pandoc
     - pass
@@ -43,10 +44,11 @@ utils:
     - rosegarden
     - rtorrent
     - rxvt-unicode
+    - slop
     - snes9x-gtk
     - ttf-ms-fonts
-    - urxvt-perls
     - unzip
+    - urxvt-perls
     - volumeicon
     - yubico-piv-tool
     - yubikey-personalization
