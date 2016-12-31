@@ -34,6 +34,7 @@ utils:
     - pass
     - pavucontrol
     - powertop
+    - psutils
     - pulseaudio
     - pulseaudio-alsa
     - qsampler
