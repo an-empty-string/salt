@@ -22,6 +22,7 @@ utils:
   pkg.installed:
   - pkgs:
     - alsa-utils
+    - cheese
     - connman
     - dosfstools
     - ferm
@@ -36,6 +37,7 @@ utils:
     - pandoc
     - pass
     - pavucontrol
+    - phonon-qt4-vlc
     - powertop
     - psutils
     - pulseaudio
@@ -51,7 +53,9 @@ utils:
     - ttf-ms-fonts
     - unzip
     - urxvt-perls
+    - vlc
     - volumeicon
+    - whois
     - yubico-piv-tool
     - yubikey-personalization
 
