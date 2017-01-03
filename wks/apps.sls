@@ -27,6 +27,7 @@ utils:
     - ferm
     - git
     - imagemagick
+    - irssi
     - linuxsampler
     - lprng
     - lxc
