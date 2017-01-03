@@ -23,6 +23,7 @@ utils:
   - pkgs:
     - alsa-utils
     - connman
+    - dosfstools
     - ferm
     - git
     - imagemagick
