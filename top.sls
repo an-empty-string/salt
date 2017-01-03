@@ -5,6 +5,7 @@ base:
   - afs.config
   - banner
   - bind-tools
+  - common
   - cronie
   - dns.resolver
   - git

@@ -2,6 +2,7 @@ browsers:
   pkg.installed:
   - pkgs:
     - firefox
+    - flashplugin
 
 fonts:
   pkg.installed:
@@ -22,11 +23,12 @@ utils:
   pkg.installed:
   - pkgs:
     - alsa-utils
+    - bc
     - cheese
     - connman
+    - docbook-xsl
     - dosfstools
-    - ferm
-    - git
+    - elfutils
     - imagemagick
     - irssi
     - linuxsampler
@@ -44,6 +46,7 @@ utils:
     - pulseaudio-alsa
     - qsampler
     - qsynth
+    - redshift
     - rofi
     - rosegarden
     - rtorrent
@@ -56,6 +59,7 @@ utils:
     - vlc
     - volumeicon
     - whois
+    - xmlto
     - yubico-piv-tool
     - yubikey-personalization
 
