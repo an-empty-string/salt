@@ -9,6 +9,7 @@ base:
   - cronie
   - dns.resolver
   - git
+  - hosts
   - htop
   - iperf
   - krb5
@@ -52,6 +53,7 @@ base:
   - wks.drivers
   - wks.i3
   - wks.lxdm
+  - wks.mate
   - wks.xfce
 
   'role:proxy':

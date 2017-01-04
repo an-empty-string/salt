@@ -23,16 +23,17 @@ utils:
   pkg.installed:
   - pkgs:
     - alsa-utils
+    - audacity
     - bc
     - cheese
     - connman
     - docbook-xsl
     - dosfstools
     - elfutils
+    - gimp
     - imagemagick
     - irssi
     - linuxsampler
-    - lprng
     - lxc
     - maim
     - p7zip
@@ -60,6 +61,7 @@ utils:
     - volumeicon
     - whois
     - xmlto
+    - xorg-server-xnest
     - yubico-piv-tool
     - yubikey-personalization
 

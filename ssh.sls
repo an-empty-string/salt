@@ -12,6 +12,7 @@ openssh:
   - user: root
   - group: root
   - mode: 644
+  - template: jinja
 
 '/etc/ssh/ssh_config':
   file.managed:

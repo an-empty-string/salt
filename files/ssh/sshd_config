@@ -6,7 +6,7 @@ ListenAddress ::
 Protocol 2
 PermitRootLogin without-password
 
-PasswordAuthentication no
+PasswordAuthentication {% if "role" in grains and grains["role"] == "remote" %}yes{% else %}no{% endif %}
 ChallengeResponseAuthentication no
 UsePAM yes
 Banner /etc/issue
@@ -16,5 +16,7 @@ GSSAPICleanupCredentials yes
 
 AuthorizedKeysCommand /usr/bin/sss_ssh_authorizedkeys
 AuthorizedKeysCommandUser root
+
+X11Forwarding yes
 
 Subsystem sftp /usr/lib/ssh/sftp-server

@@ -1,0 +1,2 @@
+127.0.0.1 localhost {{ grains.host }}
+::1 localhost {{ grains.host }}
