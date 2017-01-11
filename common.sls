@@ -6,4 +6,8 @@ common-utils:
     - ferm
     - irssi
     - ldapvi
+    - lsof
+    - nmap
+    - openbsd-netcat
+    - sipcalc
     - whois

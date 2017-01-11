@@ -36,6 +36,7 @@ utils:
     - linuxsampler
     - lxc
     - maim
+    - openvpn
     - p7zip
     - pandoc
     - pass
