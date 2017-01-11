@@ -7,7 +7,6 @@ base:
   - bind-tools
   - common
   - cronie
-  - dns.resolver
   - git
   - hosts
   - htop
@@ -28,7 +27,6 @@ base:
   - sudo
   - sysctl.asymmetric
   - terminfo
-  - timezone
   - vim
   - zsh
 
@@ -46,6 +44,11 @@ base:
   'role:cups':
   - match: grain
   - cups.cups
+
+  'not G@role:workstation':
+  - match: compound
+  - dns.resolver
+  - timezone
 
   'role:workstation':
   - match: grain
