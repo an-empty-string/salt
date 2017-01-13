@@ -7,6 +7,7 @@ common-utils:
     - irssi
     - ldapvi
     - lsof
+    - mtr
     - nmap
     - openbsd-netcat
     - sipcalc
