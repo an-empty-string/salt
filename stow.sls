@@ -1,2 +1,0 @@
-stow:
-  pkg.installed

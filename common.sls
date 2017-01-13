@@ -11,4 +11,5 @@ common-utils:
     - nmap
     - openbsd-netcat
     - sipcalc
+    - stow
     - whois

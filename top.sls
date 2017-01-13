@@ -23,7 +23,6 @@ base:
   - screen
   - ssh
   - sssd
-  - stow
   - sudo
   - sysctl.asymmetric
   - terminfo
