@@ -1,3 +1,0 @@
-bind-tools:
-  pkg:
-  - installed

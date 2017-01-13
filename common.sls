@@ -2,9 +2,12 @@ common-utils:
   pkg.installed:
   - pkgs:
     - autojump
+    - bind-tools
     - dtach
     - ferm
+    - htop
     - irssi
+    - iperf3
     - ldapvi
     - lsof
     - mtr
@@ -12,4 +15,5 @@ common-utils:
     - openbsd-netcat
     - sipcalc
     - stow
+    - sudo
     - whois
